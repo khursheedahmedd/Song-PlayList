@@ -7,9 +7,9 @@
 
 #include "Playlist.hpp"
 
-Playlist::Playlist(): head(NULL) {
-    count = 0;
-}
+// Playlist::Playlist(): head(NULL) {
+//     count = 0;
+// }
 
 void Playlist::insertSongAtEnd(Song* newSong) {
     if(head == NULL) {
